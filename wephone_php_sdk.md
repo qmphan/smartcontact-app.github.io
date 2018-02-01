@@ -11,7 +11,7 @@ To use the wePhone PHP SDK, you need to get the API key for your enterpise. To g
  
 1. Setting up the library using composer
 
-Using Composer (https://getcomposer.org/) is an easy way to manage PHP project dependency.
+Get PHP Composer from this page (https://getcomposer.org/).
 Create a composer.json file as bellow, then run composer update:
 
 Here is the content of composer.json::
@@ -53,7 +53,8 @@ $client->init("api-key", "https://admin.wephone.io");
 
 ---
 
-### Send SMS API
+## Send SMS API
+[To see the list of SMS sent and received](sms/overview)
 ### Send an SMS
 
 ```
