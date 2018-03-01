@@ -11,6 +11,6 @@ title: wePhone Documentation
 
 [Click to call](/pages/enterprise-api/click2call-from-backoffice) 
 
-[wePhone PHP SDK](pages/wephone_php_sdk)
+[wePhone PHP SDK](pages/wephone-php-sdk)
 
 [Enterprise CRM](pages/enterprise-crm/enterprise-crm)
