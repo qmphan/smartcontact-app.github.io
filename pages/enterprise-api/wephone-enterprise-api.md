@@ -6,21 +6,34 @@ Title: wePhone Enterprise API
 ### Get the list of enterprise DID
 
 ```
-$result = $client->call('number.list_all', array());
+$result = $client->call('did.list_all', array());
 ```
 
-### Buy a phone number
-
+### Add a phone number to the currently active order
 
 ```
-$result = $client->call('number.buy', array('country_code_2letter', 'number_prefix'));
+$result = $client->call('did.buy', array('country_code' => 'FR', 'prefix' => '1'));
+```
+
+
+### Proceed to pay the active order
+
+```
+$result = $client->call('did.order.pay', array('order_token' => $orderToken));
+```
+
+
+### Clear the current order
+
+```
+$result = $client->call('did.order.clear', array('order_token' => $orderToken));  // Parameter order_token is optional
 ```
 
 ### Return a phone number
 
 
 ```
-$result = $client->call('number.return', array('returned_number'));
+$result = $client->call('did.return', array('returned_number'));
 ```
 
 ### Define call routing for a phone number
@@ -31,7 +44,7 @@ $routingData = array(
     "application"=> "call_phone_number", 
     "params"=> array("number"=> "111")
 );
-$result = $client->call('number.set_route', array('routed_number', $routingData));
+$result = $client->call('did.configure', array('routed_number', $routingData));
 ```
 
 ********************************************************************************
