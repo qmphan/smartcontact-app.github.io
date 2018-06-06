@@ -12,11 +12,12 @@ $result = $client->call('did.list_all', array());
 ### Add a phone number to the currently active order
 
 Function: did.reserve
+
 Parameters:
-	- contry_code: Two letter country code
-	- city_name: The name of the city
-	- quantity: The quantity of number to buy
-	- type: Number type. Can be one of (GEOGRAPHIC|NATIONAL|MOBILE)
+- contry_code: Two letter country code
+- city_name: The name of the city
+- quantity: The quantity of number to buy
+- type: Number type. Can be one of (GEOGRAPHIC|NATIONAL|MOBILE)
 
 ```
 $result = $client->call('did.reserve', array('country_code' => 'FR', 
