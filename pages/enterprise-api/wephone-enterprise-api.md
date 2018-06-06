@@ -5,6 +5,8 @@ Title: wePhone Enterprise API
 ## Phone Number API
 ### Get the list of enterprise DID
 
+Function: did.list_all
+
 ```
 $result = $client->call('did.list_all', array());
 ```
@@ -29,6 +31,11 @@ $result = $client->call('did.reserve', array('country_code' => 'FR',
 
 
 ### Proceed to pay the active order
+
+Function: did.order.pay
+
+Parameters:
+- order_token (optional): The token of the order to pay. Default to the currently active order if not provide.
 
 ```
 $result = $client->call('did.order.pay', array('order_token' => $orderToken));
