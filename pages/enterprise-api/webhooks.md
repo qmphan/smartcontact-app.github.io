@@ -1,48 +1,28 @@
 ---
-Title: wePhone Call Center Javascript Library
+Title: wePhone Webhook
 ---
 
-## The library
+You can regsiter a URL to be called (POSTed) when a call starts or stops. To register a webhook, go to the page Settings / API Integration.
 
-wePhone call center library is a javascript library hosted on wePhone's website. Just include it in your pages before making use of its api.
+Example of a payload send to the webhook on call end
 
-```javascript
-<script src="https://admin.wephone.io/a/{enterprise-domain}/public/libs/1.0/wephone_callcenter_1.1.0.js"></script>
-```
-
-## The wePhoneCallCenter object
-
-The library above export a global object wePhoneCallCenter with the following methods.
-
-
-# Make an outbound call
-
-wePhoneCallCenter.**make_call**(called_number, calling_number, queue_id, queue_name, custom_data, success_cb, error_cb);
-
-The arguments:
-- called_number: The number to be called
-- calling_number: One of your wePhone numbers. This number is displayed on the callee's phone as the calling number.
-- queue_id: Do not use this value (Always set to null)
-- queue_name: The name or alias of a call queue. If this parameter is set, the call is accounted as an outbound call from the call queue.
-- custom_data: An object that contain custom information to be associated with the call. This data can be later retrieved back from wePhone. For exemple, you can get this date from wePhone if you set a webhook to get the "call end" event.
-- success_cb: The function to be called on success.
-- error_cb: The function to be called in case of error.
-
-Example:
-```javascript
-wePhoneCallCenter.transfer_call('0611111111', null, null, 'Queue 1', '{"client_id": "12131"}');
-```
-
-# Transfer the current call to a phone number
-
-wePhoneCallCenter.**transfer_call**(destination_number, assisted_transfer);
-
-
-The arguments:
-- destination_number: The number to transfer call to
-- assisted_transfer: This parameter can be 0 or 1. 1: Assisted transfer. 0: Blind transfer.
-
-Example:
-```javascript
-wePhoneCallCenter.transfer_call('0622222222', 1);
+```JSON
+{
+	"call_id": "flexpbx-0/20161103183940-sip/15", // Unique ID of the call
+	"our_number": "0033974739980", // Our phone number
+	"client_number": "0033175757523", // Client phone number
+	"is_outgoing": 0, // 0: Inbound call. 1: Outbound call
+	"start_time": "2016-11-03T18:39:40+01:00", // Call start time
+	"agent_answer_time": "2016-11-03T18:39:54+01:00", // The moment the call is anwsered by the first agent
+	"hangup_time": "2016-11-03T18:40:05+01:00", // Hangup time
+	"duration": 12, // Total duration of the communication
+	"onhold_duration": 0, // Total onhold time
+	"user_data": null, // This value is not yet used
+	"session_data": [{  // List of calls with different agents (more than 1 if there is a call transfer)
+		"email": "agent1@wephone.app",
+		"connected_time": "2016-11-03T18:39:54+01:00", // Début de la communication avec l'agent
+		"end_time": "2016-11-03T18:40:06+01:00", // Fin de la communication avec l'agent
+		"duration": 12 // Durée de la communication avec l'agent
+	}]
+}
 ```
