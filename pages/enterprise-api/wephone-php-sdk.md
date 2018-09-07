@@ -2,7 +2,7 @@
 title: wePhone PHP SDK
 ---
 
-# WEPHONE PHP SDK
+# WEPHONE PHP SDK (*Beta  non-stable)
 
 wePhone PHP SDK is a PHP library that allow you to quickly call wePhone APIs. 
 To use the wePhone PHP SDK, you need to get the API key for your enterpise. To get API key, first login to wePhone site with your admin account. Then, click on Settings --> API Integration at the botton of the left menu. You will then be able to copy your enterprise's existing API key or create a new one.
