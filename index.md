@@ -14,3 +14,7 @@ title: wePhone Documentation
 [wePhone PHP SDK](pages/wephone-php-sdk)
 
 [Enterprise CRM](pages/enterprise-crm/enterprise-crm)
+
+[Call queue](pages/Callqueue/Call-queue)
+
+[Group](pages/configuration/Group)

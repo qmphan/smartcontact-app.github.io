@@ -1,38 +1,31 @@
 ---
-title: Call Queue Management
+title: Group Management
 ---
 
-## What is call queue?
+## Create Group
 
-Call queue is to incoming calls manage from customers or to call away from the agent. A call queue consists agents of a group call handling a customer call in the queue.
+WePhone allows administrators to create group have many agents. This helps the administrator better management the use of wePhone. Creating a small group will make it easier to manage queues.
 
-This system allows forwarding some of the calls waiting for the next agent in the queue. Calls are redirected to the first agents available to reduce the customer's waiting.
+The group list is displayed as follows:
+![Group](/images/group-list.png)
 
-The call queue interface will be displayed as follows:
+Create a new group click on the "Create" button showing the newly created window: 
+![Group](/images/group-create.png)
 
-#### Send SMS with wePhone SDK: 
-Click here to see example of how to use wePhone PHP SDK to send SMS: [wePhone PHP SDK](/pages/wephone-php-sdk)
+Information:
+- Name: Name group
+- Parent group: Select an existing group as the parent group for the group.
 
-## Get the list of send and received SMS
+## Edit Group
 
-Login to your wePhone account. Click on "SMS" menu on the left to have access to the list of SMS sent and received.
+After creating a new group, administrators can edit groups to add agents or perform other actions as follows:
+![Group](/images/group-edit.png)
 
-![SMS Sent](/images/sms-sent.png)
+Edit group information:
 
-
-## Get notification by web callback when an SMS is delivered
-
-You can define a web URL that get called everytime an SMS is delivered (or fails permanently to be delivered).
-![SMS Sent](/images/sms-api-config.png)
-
-Fill the text box "SMS Callback URL" with your own URL. That URL will receive a POST request with a JSON payload that give you information about the SMS delivery status. 
-
-Example of POST payload:
-
-```JSON
-{
-    "sms_id": "AD834FDSDDRF98DYDF80D0DF",
-    "success": true,
-    "delivery_time": "2018-02-01 16:06:57+01:00"
-}
-```
+- Name: Group name
+- Parent group: Select a group that is available as the parent group for the group.
+- Description: Add description to group details
+- Group Management: Select the user to manage the group
+- Staff: Add a dedicated team member. Administrators can add agents by pressing the "Add New" button or delete the user by pressing the "Delete" button.
+- Delete a group: The "Delete" icon will delete the group..
