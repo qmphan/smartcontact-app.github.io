@@ -15,6 +15,6 @@ title: wePhone Documentation
 
 [Enterprise CRM](pages/enterprise-crm/enterprise-crm)
 
-[Call queue](pages/Callqueue/Call-queue)
+[Call queue](/pages/configuration/Call-queue)
 
-[Group](pages/configuration/Group)
+[Group](/pages/configuration/Group)
