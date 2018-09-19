@@ -15,6 +15,6 @@ title: Smartcontact Documentation
 
 [Enterprise CRM](pages/enterprise-crm/enterprise-crm)
 
-[Call queue](/pages/configuration/Call-queue)
+[Call queue](/pages/configuration/Call-queues)
 
 [Group](/pages/configuration/Group)
