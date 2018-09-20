@@ -1,31 +1,46 @@
 ---
-title: Group Management
+title: SIP phone Management
 ---
 
-## Create Group
+## Create SIP phone
 
-WePhone allows administrators to create group have many agents. This helps the administrator better management the use of wePhone. Creating a small group will make it easier to manage queues.
+A SIP number is used with a softphone or an IP phone that allows the enumerator to make or receive calls directly on the enumerator's computer instead of using a landline or mobile phone.
 
-The group list is displayed as follows:
-![Group](/images/group-list.png)
+The SIP Phone List is displayed as follows:
+![Sip phone](/images/sipphone-list.png)
 
-Create a new group click on the "Create" button showing the newly created window: 
-![Group](/images/group-create.png)
+Create a new Sip phone click on the "Create" button showing the newly created window: 
+![Sip phone](/images/sipphone-create.png)
 
 Information:
-- Name: Name group
-- Parent group: Select an existing group as the parent group for the group.
+- SIP number: Automatically display the newly created SIP number.
+- Password: Automatically displays random password, can change a password.
+- Calling profile: There are 5 options with Default profile, No out going call, National fix & mobile, National and special and International
+- Outbound display number: Select outgoing phone number.
+- User: Select the employee from the list.
+- Description: Enter a description for providing accurate information about how to use the digital SIP (optional).
+- Status: SIP number status.
 
-## Edit Group
+## Edit SIP phone
 
-After creating a new group, administrators can edit groups to add agents or perform other actions as follows:
-![Group](/images/group-edit.png)
+### General interface
+![Sip phone](/images/sipphone-general.png)
 
-Edit group information:
+Edit Sip phone information:
 
-- Name: Group name
-- Parent group: Select a group that is available as the parent group for the group.
-- Description: Add description to group details
-- Group Management: Select the user to manage the group
-- Staff: Add a dedicated team member. Administrators can add agents by pressing the "Add New" button or delete the user by pressing the "Delete" button.
-- Delete a group: The "Delete" icon will delete the group..
+- SIP number: Automatically display the newly created SIP number.
+- Password: Automatically displays random password, can change a password.
+- Calling profile: There are 5 options with Default profile, No out going call, National fix & mobile, National and special and International
+- Outbound display number: Select outgoing phone number.
+- User: Select the employee from the list.
+- Description: Enter a description for providing accurate information about how to use the digital SIP (optional).
+- Status: SIP number status.
+
+### Registered ID Phones interface
+![Sip phone](/images/sipphone-registered.png)
+
+Show sip phone info registered on a softphone
+
+### Call logs interface
+![Sip phone](/images/sipphone-call-logs.png)
+
