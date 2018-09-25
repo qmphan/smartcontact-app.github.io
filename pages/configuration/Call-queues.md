@@ -2,7 +2,7 @@
 title: Call Queue Management
 ---
 
-## Create Call queue?
+## Create Call queue
 
 Call queue is to incoming calls manage from customers or to call away from the agent. A call queue consists of agents of a group call handling a customer call in the queue.
 
