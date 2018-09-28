@@ -4,12 +4,14 @@ title: Call qualification
 
 ## Create Call qualification
 
-This function creates a customer sorting list. This function will appear during the call and allows the operator to perform a call assessment.
+This feature is used to create a Call Qualification List that facilitates the work of agents. Once the call qualification list has been programmed, it appears at the end of a call (if the administrator has set this option) and allows the agent to qualify the call with a few clicks.
+
+To set up call qualification, click on "Call center parameters" in the "Call Center" block. Then click on "Call Qualifications" in the drop-down list that appears.
 
 The Call qualification list is displayed as follows::
 ![Call qualification](/images/qualification-list.png)
 
-Create a new Call qualification click on the "Create" button showing the newly created window: 
+Then click on the button "Create" at the top right of the "Work Window". The Call Qualification settings are displayed on the right side of the "Work Window":
 ![Call qualification](/images/qualification-create.png)
 
 Information:
