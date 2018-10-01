@@ -4,7 +4,7 @@ title: Agent connection log
 
 ## Agent connection log
 
-This page displays statistical data about the connection of all advisors.
+This page displays statistical data about the connection of all agents.
 
 You can use the filters to see only the relevant data you need.
 ![Agent connection log](/images/agent-connection-log.png)
