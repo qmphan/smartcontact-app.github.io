@@ -4,7 +4,7 @@ title: User Management
 
 ## User Management
 
-In the wePhone, the user is all employees of your company that an account is assigned. Users may have an administrator, supervisor or agent status depending on their functionality.
+In wePhone, users are all employees of your company to whom an account is assigned. Users may have the status of administrator, supervisor or advisor depending on their function.
 
 ## Format of the csv file
 
@@ -17,17 +17,19 @@ camille.skil@gmail.com, John, E Truitt, 123456789, agent, 1, , skill1 name:1;ski
 brandy_bergstr@hotmail.com, Pedro, M Ramirez, 123456789, user, 0, , ,
 ```
 ## Create user
-Create a new user click on the button "Create" from the user management page.
-
+To create a new user, click on "Users" in the "Main Menu" block.
+Then click on the "Create" button at the top left of the "Work Window".
+A "Create a new user" window appears. Fill in the required fields to create your new user.
 ![User](/images/user-create.png)
 
 ## Edit user
-From user list, select a user to input user information:
-
+Once your new user is created, you can find it and set the user information in "User" in the "Main Menu" block.
+To configure the user's settings, click the user in question. The right side of the "Work Window" displays the user information.
 ![User](/images/user-edit.png)
 
 ## Telephony settings (VoIP)
-By default, the Voice IP feature is disabled. Click the button "Enable sip phone connection" to activate it.
+By default, the Voice over IP feature is disabled. Click on the button "Enable sip phone connection" to activate it.
+Once the function is activated, a window appears:
 
 ![User](/images/user-voip.png)
 
