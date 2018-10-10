@@ -4,7 +4,7 @@ title: User Management
 
 ## User Management
 
-In wePhone, users are all employees of your company to whom an account is assigned. Users may have the status of administrator, supervisor or advisor depending on their function.
+In wePhone, users are all employees of your company to whom an account is assigned. Users may have the status of administrator, supervisor or agent depending on their function.
 
 ## Format of the csv file
 
