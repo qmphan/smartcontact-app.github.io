@@ -4,7 +4,7 @@ Title: Introduction to VoiceXML
 
 ## Introduction
 
-VoiceXML is the HTML of the voice web, the open standard markup language for voice applications. (http://www.voicexml.org/tutorials-2/introduction/)
+VoiceXML is the HTML of the voice web, the open standard markup language for voice applications. [Learn more about Vxml](http://www.voicexml.org/tutorials-2/introduction/)
 
 ## How to use VoiceXML with Smartcontact
 
