@@ -22,11 +22,13 @@ Parameters:
 - type: Number type. Can be one of (GEOGRAPHIC|NATIONAL|MOBILE)
 
 ```
-$result = $client->call('did.reserve', array('country_code' => 'FR', 
-											 'city_name' => 'Paris',
-											 'quantity' => 1,
-											 'type' => 'GEOGRAPHIC'
-											 ));
+$result = $client->call('did.reserve', 
+	array('country_code' => 'FR', 
+			'city_name' => 'Paris',
+			'quantity' => 1,
+			'type' => 'GEOGRAPHIC'
+	)
+);
 ```
 
 
