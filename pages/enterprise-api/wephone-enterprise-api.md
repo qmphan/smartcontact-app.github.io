@@ -1,5 +1,5 @@
 ---
-Title: wePhone Enterprise API
+Title: Smartcontact Enterprise API
 ---
 
 ## Phone Number API

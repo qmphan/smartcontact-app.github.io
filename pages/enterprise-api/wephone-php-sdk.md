@@ -1,11 +1,11 @@
 ---
-title: wePhone PHP SDK
+title: Smartcontact PHP SDK
 ---
 
-# WEPHONE PHP SDK (*Beta  non-stable)
+# Smartcontact PHP SDK (*Beta  non-stable)
 
-wePhone PHP SDK is a PHP library that allow you to quickly call wePhone APIs. 
-To use the wePhone PHP SDK, you need to get the API key for your enterpise. To get API key, first login to wePhone site with your admin account. Then, click on Settings --> API Integration at the botton of the left menu. You will then be able to copy your enterprise's existing API key or create a new one.
+Smartcontact PHP SDK is a PHP library that allow you to quickly call Smartcontact APIs. 
+To use the Smartcontact PHP SDK, you need to get the API key for your enterpise. To get API key, first login to Smartcontact site with your admin account. Then, click on Settings --> API Integration at the botton of the left menu. You will then be able to copy your enterprise's existing API key or create a new one.
 
 ![alt text](/images/get-api-key.png)
  
@@ -22,18 +22,18 @@ Here is the content of composer.json::
       "repositories": [
           {
               "type": "vcs",
-              "url": "https://github.com/wephone-saas/sdk-php.git"
+              "url": "https://github.com/Smartcontact-saas/sdk-php.git"
           }
       ],
       "require": {
-          "wephone/sdk-php": "dev-master"
+          "Smartcontact/sdk-php": "dev-master"
       }
   }
 ```
 
 Add more library dependency to your `composer.json` as needed. Remember to run `composer update` each time composer.json is updated.
 
-Add the next lines to your PHP source file so that it knows how to find wephone SDK:
+Add the next lines to your PHP source file so that it knows how to find Smartcontact SDK:
 
 ```
 <?php
@@ -47,8 +47,8 @@ require 'vendor/autoload.php';
 ### Init
 
 ```
-$client = new \WEPHONE\SDK\Client;
-$client->init("api-key", "https://admin.wephone.io");
+$client = new \Smartcontact\SDK\Client;
+$client->init("api-key", "https://admin.Smartcontact.io");
 ```
 
 ---
@@ -58,8 +58,8 @@ $client->init("api-key", "https://admin.wephone.io");
 ### Send an SMS
 
 ```
-$client = new \WEPHONE\SDK\Client;
-$client->init("xxxx", "https://admin.wephone.io");
+$client = new \Smartcontact\SDK\Client;
+$client->init("xxxx", "https://admin.Smartcontact.io");
 
 $result = $client->call('sms.send',
                         array(  "sender" => "MySenderName",

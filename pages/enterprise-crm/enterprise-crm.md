@@ -1,11 +1,11 @@
 ---
-title: wePhone PHP SDK
+title: Smartcontact PHP SDK
 ---
 
 # Enterprise CRM
 
-wePhone can connect to your CRM and log calls into it.
-In order for wePhone to interact with your CRM, you should first define your CRMs inside wePhone. You can do this by choosing the item "Enterprise CRM" on the left main menu.
+Smartcontact can connect to your CRM and log calls into it.
+In order for Smartcontact to interact with your CRM, you should first define your CRMs inside Smartcontact. You can do this by choosing the item "Enterprise CRM" on the left main menu.
 
 To add a new CRM, click on the button "Create" (see bellow)
 

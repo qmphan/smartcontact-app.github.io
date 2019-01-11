@@ -1,8 +1,8 @@
 ---
-title: wePhone Documentation
+title: Smartcontact Documentation
 ---
 
-## First steps with wePhone
+## First steps with Smartcontact
 
 [Configure your call center](/pages/configuration/first-time-config)
 
@@ -11,7 +11,7 @@ title: wePhone Documentation
 
 [Click to call](/pages/enterprise-api/click2call-from-backoffice) 
 
-[wePhone PHP SDK](pages/wephone-php-sdk)
+[Smartcontact PHP SDK](pages/Smartcontact-php-sdk)
 
 [Enterprise CRM](pages/enterprise-crm/enterprise-crm)
 

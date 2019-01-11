@@ -1,5 +1,5 @@
 ---
-title: wePhone Enterprise API
+title: Smartcontact Enterprise API
 ---
 
 ## Make call from back-office
@@ -13,6 +13,6 @@ title: wePhone Enterprise API
 
 ## SDK
 
-[wePhone PHP SDK](./wephone-php-sdk)
+[Smartcontact PHP SDK](./Smartcontact-php-sdk)
 
-[Function available in SDK](./wephone-enterprise-api)
+[Function available in SDK](./Smartcontact-enterprise-api)

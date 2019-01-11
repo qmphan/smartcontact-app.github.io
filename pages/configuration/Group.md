@@ -4,7 +4,7 @@ title: Group Management
 
 ## Create Group
 
-WePhone allows administrators to create group have many agents. This helps the administrator better management the use of wePhone. Creating a small group will make it easier to manage queues.
+Smartcontact allows administrators to create group have many agents. This helps the administrator better management the use of Smartcontact. Creating a small group will make it easier to manage queues.
 
 The group list is displayed as follows:
 ![Group](/images/group-list.png)

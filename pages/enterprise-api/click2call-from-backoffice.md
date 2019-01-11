@@ -8,21 +8,21 @@ You can add click to call function to your enterprise's back-office pages so tha
 
 ## Configuration
 
-1. Add wePhone callcenter library to your back-office
+1. Add Smartcontact callcenter library to your back-office
     Add this code to the header of your back-offices pages
 
 ```javascript
-<script src="https://admin.wephone.io/a/{enterprise-domain}/public/libs/1.0/wephone_callcenter_1.1.0.js"></script>
+<script src="https://admin.Smartcontact.io/a/{enterprise-domain}/public/libs/1.0/Smartcontact_callcenter_1.1.0.js"></script>
 ```
 
-Where {enterprise-domain} is the your wePhone's enterprise domain. For example, if your wePhone enterprise domain is "myenterprise", then the URL to use is:
+Where {enterprise-domain} is the your Smartcontact's enterprise domain. For example, if your Smartcontact enterprise domain is "myenterprise", then the URL to use is:
 
 ```javascript
-<script src="https://admin.wephone.io/a/myenterprise/public/libs/1.0/wephone_callcenter_1.1.0.js"></script>
+<script src="https://admin.Smartcontact.io/a/myenterprise/public/libs/1.0/Smartcontact_callcenter_1.1.0.js"></script>
 ```
 
 
-2. Call make_call function to make call with wePhone
+2. Call make_call function to make call with Smartcontact
 
-    The javascript library above provide the global object wePhoneCallCenter. To make call from your javascript code, you should call the [wePhoneCallCenter.make_call](callcenter-js-library#make_call) function.
+    The javascript library above provide the global object SmartcontactCallCenter. To make call from your javascript code, you should call the [SmartcontactCallCenter.make_call](callcenter-js-library#make_call) function.
 
