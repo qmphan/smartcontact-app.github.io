@@ -24,13 +24,10 @@ Put the call into a queue with voicexml, you should use the custom object [callq
 <?xml version="1.0" encoding="UTF-8"?>
 <vxml autoanswer="false">
     <form>
-        <prompt>
-            <audio src="em://welcome-sound" />
-        </prompt>
         <object name="queue" classid="call_queue">
             <param name="queue_alias" value="standard"/>
-            <param name="greeting_message" value=""/>
-            <param name="waiting_music" value="em://waiting_music"/>
+            <param name="greeting_message" value="@test-welcome"/>
+            <param name="waiting_music" value="@waiting_music"/>
             <param name="main_agent" value="agent1"/>
             <param name="main_agent" value="agent2"/>
             <param name="backup_agent" value="agent3"/>
